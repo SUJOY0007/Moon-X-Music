@@ -1,9 +1,9 @@
 <p align="center">
-    <br><b>😫 𝑻𝑩𝑯 𝑴𝑼𝑺𝑰𝑪 😫</b><br>
+    <br><b>🦋͜͡⍣Ꮆﾌ516♪✨ᴍᴜsɪᴄ ➺</b><br>
 </p>
-<p align="center"><a href="https://t.me/SCHOOL_WALLI_MASTII"><img src="https://telegra.ph/file/4d83f2e52df49e973e18d.jpg"></a></p>
+<p align="center"><a href="https://t.me/ADVENTURE_FAMILYS"><img src="https://telegra.ph/file/db8765da6945e3c9333e6.jpg"></a></p>
 
-Fallen Music is a Telegram Bot project that allows you to play music on Telegram through Telegram Voice Chat Feature</b><br>
+ GJ516 play music on Telegram Voice Chat Feature</b><br>
 
 <p align="center">
     <img src="https://img.shields.io/github/stars/harshparmar0/TBHVCBOT?style=for-the-badge" alt="Stars">
