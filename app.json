@@ -1,9 +1,10 @@
 {
-  "name": "ᴛʙʜ ᴍᴜsɪᴄ",
-  "logo": "https://telegra.ph/file/4d83f2e52df49e973e18d.jpg",
+  "name": "🦋͜͡⍣𝐆𝐉𝟓𝟏𝟔✨𝐌𝐔𝐒𝐈𝐂♪➺
+",
+  "logo": "https://telegra.ph/file/db8765da6945e3c9333e6.jpg",
   "description": "A SuperFast VC Player bot to play songs in Telegram Video Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram", "fallen"],
-  "repository": "https://github.com/harshparmar0/TBHVCBOT",
+  "repository": "https://github.com/MrProgrammer72/GJ516VCBOT",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -35,12 +36,13 @@
     "OWNER_USERNAME": {
       "description": "Username of the person who will known as owner of the bot, without @",
       "required": false,
-      "value": "TBH_MUSIC_BOT"
+      "value": "GJ516_vc_player"
     },
     "SUPPORT_GROUP": {
       "description": "Username of the group where users will go and disturb you, without @",
       "required": false,
-      "value": "SCHOOL_WALLI_MASTII"
+      "value": "ADVENTURE_FAMILYS
+"
     },
     "SUDO_USERS": {
       "description": "User IDs of the users who will counted as admin everywhere (if more than one separate them by space).",
