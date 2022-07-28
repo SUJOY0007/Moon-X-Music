@@ -27,7 +27,7 @@ DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
 START_IMG = getenv("START_IMG", "https://telegra.ph/file/db8765da6945e3c9333e6.jpg")
 
-PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/db8765da6945e3c9333e6.jpg")
+PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/9a42a0c6c293f021f5445.jpg")
 
 SESSION_NAME = getenv("SESSION_NAME", None)
 
