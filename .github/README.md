@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/github/contributors/MrProgrammer72/GJ516VCBOT?style=for-the-badge" alt="Contributors">
     <a href="https://github.com/MrProgrammer72/GJ516VCBOT/issues"> <img src="https://img.shields.io/github/issues/MrProgrammer72/GJ516VCBOT?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/MrProgrammer72/GJ516VCBOT"> <img src="https://img.shields.io/github/repo-size/MrProgrammer72/GJ516VCBOT?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=yellow&label=pyrogram&logo=python&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=pink&label=pyrogram&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 <details>
@@ -60,7 +60,7 @@
 
 ## ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 🚀
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/MrProgrammer72/GJ516VCBOT"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200" height="35.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/MrProgrammer72/GJ516VCBOT"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-orange?style=for-the-badge&logo=heroku" width="200" height="35.45"/></a></p>
 The easiest way to host this bot, Deploy on Heroku, Change the app country to Europe (it will help to make the bot more stable).
 
 ## ᴅᴇᴩʟᴏʏ ᴏɴ ᴏᴋᴛᴇᴛᴏ
