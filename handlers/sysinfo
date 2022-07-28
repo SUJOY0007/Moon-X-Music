@@ -19,7 +19,7 @@ def humanbytes(size):
         raised_to_pow += 1
     return str(round(size, 2)) + " " + dict_power_n[raised_to_pow] + "B"
 
-#Module by AnonymousBoy1025
+#Module by MrProgrammer72
 # FETCH SYSINFO
 
 @Client.on_message(command(["sysinfo"]) & ~filters.edited)
