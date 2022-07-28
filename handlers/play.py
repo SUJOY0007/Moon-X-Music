@@ -65,7 +65,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Harsh"
+        user.first_name = "export_gabbar"
     usar = user
     wew = usar.id
     try:
@@ -76,7 +76,7 @@ async def play(_, message: Message):
                 try:
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
-                    await fallen.edit(
+                    await programmer.edit(
                         "<b>» ꜰɪʀsᴛʟʏ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ʙᴀʙʏ</b>")
                     return
 
@@ -88,12 +88,12 @@ async def play(_, message: Message):
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
-                    await fallen.edit(
+                    await programmer.edit(
                         f"<b>» ᴀssɪsᴛᴀɴᴛ ɪs ɴᴏᴛ ɪɴ ᴛʜɪs ᴄʜᴀᴛ ʙᴀʙʏ, sᴇɴᴅ /join ғɪʀsᴛ ᴛɪᴍᴇ ᴛᴏ ᴏʀᴅᴇʀ ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴛᴏ ᴊ​ᴏɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ.")
     try:
         await USER.get_chat(chid)
     except Exception as e:
-        await fallen.edit(
+        await programmer.edit(
             f"<i>» ᴀssɪsᴛᴀɴᴛ ғᴀɪʟᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀᴛ.</i>\n\nʀᴇᴀsᴏɴ : {e}")
         return
     
@@ -154,10 +154,10 @@ async def play(_, message: Message):
         file_path = await converter.convert(youtube.download(url))
     else:
         if len(message.command) < 2:
-            return await fallen.edit(
+            return await programmer.edit(
                 "» ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴀʀᴄʜ ʙᴀʙʏ🤦🏻‍♂️"
             )
-        await fallen.edit("🔎")
+        await programmer.edit("🔎")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -181,7 +181,7 @@ async def play(_, message: Message):
                 secmul *= 60
 
         except Exception as e:
-            await fallen.edit(
+            await programmer.edit(
                 "» ɴᴏᴛ ғᴏᴜɴᴅ, ᴛʀʏ sᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴛʜᴇ sᴏɴɢ ɴᴀᴍᴇ ʙᴀʙʏ"
             )
             print(str(e))
@@ -235,7 +235,7 @@ async def play(_, message: Message):
         disable_web_page_preview=True,
     )
 
-    return await fallen.delete()
+    return await programmer.delete()
 
 @Client.on_callback_query(filters.regex("close_play"))
 async def in_close_play(_, query: CallbackQuery):
