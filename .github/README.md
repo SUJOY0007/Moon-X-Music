@@ -56,7 +56,7 @@
 
 ### 🧪 Get `SESSION_NAME` variable:
 
-[``Pyrogram Session``](https://telegram.me/StringFatherBot)
+[``Pyrogram Session``](https://replit.com/@dashezup/generate-pyrogram-session-string)
 
 ## ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 🚀
 
