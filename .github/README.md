@@ -2,7 +2,7 @@
     <br><b> 🦋͜͡⍣𝐆𝐉𝟓𝟏𝟔✨𝐌𝐔𝐒𝐈𝐂♪➺ 
 </b><br>
 </p>
-<p align="center"><a href="https://t.me/ADVENTURE_FAMILYS"><img src="https://telegra.ph/file/db8765da6945e3c9333e6.jpg"></a></p>
+<p align="center"><a href="https://t.me/ADVENTURE_FAMILYS"><img src="https://telegra.ph/file/9a42a0c6c293f021f5445.jpg"></a></p>
 
  GJ516 play music on Telegram Voice Chat Feature</b><br>
 
