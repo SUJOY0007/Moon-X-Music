@@ -43,7 +43,7 @@ async def start_(client: Client, message: Message):
                         "🔎 ɪɴʟɪɴᴇ 🔎", switch_inline_query_current_chat=""
                     ),
                     InlineKeyboardButton(
-                        "🤯 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ 🤯", url="https://github.com/MrProgrammer72/GJ516VCBOT"
+                        "🤯 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ 🤯", url="https://telegra.ph/file/9b0455dae14d5639f936d.mp4"
                     )]
             ]
        ),
