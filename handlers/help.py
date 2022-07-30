@@ -37,7 +37,7 @@ async def help_cmd(client: Client, message: Message):
                         "💫 sᴜᴩᴩᴏʀᴛ 💫", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "❄ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ ❄", url="https://github.com/MrProgrammer72/GJ516VCBOT"
+                        "❄ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ ❄", url="https://telegra.ph/file/9b0455dae14d5639f936d.mp4"
                     )
                 ],
                 [
