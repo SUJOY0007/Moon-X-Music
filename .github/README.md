@@ -87,7 +87,7 @@ python3 main.py # Run the bot
 
 ### ᴄʀᴇᴅɪᴛs 💖
 - [MrProgrammer](https://github.com/MrProgrammer72/GJ516VCBOT): Developer
-- [GJ516 vc player](https://telegram.me/GJ516_vc_player): Test Bot
+- [GJ516 vc player](https://telegram.me/GJ516_VCPLAYER_bot): Test Bot
 
 [![ForTheBadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
