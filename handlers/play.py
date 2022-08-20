@@ -221,13 +221,14 @@ async def play(_, message: Message):
                 ),
                 stream_type=StreamType().local_stream,
             )
-                 Jay = await message.reply_photo( 
+                 await message.reply_photo( 
 
          photo="https://telegra.ph/file/e6871ce82fc5afaf46073.jpg", 
 
-         caption="🍑 PLAY.... 🍑", 
+         caption="🍑 PLAY.... 🍑",
+       )
+h
 
-     )
 
         await message.reply_text(
             text=f"**ㅤㅤㅤ» ɴᴏᴡ ᴘʟᴀʏɪɴɢ «**\n📌 **ᴛɪᴛʟᴇ​:** [{title[:65]}]({url})\n🕕 **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}` ᴍɪɴᴜᴛᴇs\n💕 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​:** {chumtiya}\n💔 **ᴘʟᴀʏɪɴɢ ɪɴ​:** `{message.chat.title}`\n🎥 **sᴛʀᴇᴀᴍ ᴛʏᴘᴇ:** ʏᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ\n",
