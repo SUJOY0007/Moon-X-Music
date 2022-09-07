@@ -1,3 +1,6 @@
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
+
 <p align="center">
     <br><b> 🦋͜͡⍣𝐆𝐉𝟓𝟏𝟔✨𝐌𝐔𝐒𝐈𝐂♪➺ 
 </b><br>
@@ -7,6 +10,8 @@
 <img src="https://readme-typing-svg.herokuapp.com?color=00FF00&width=420&lines=GJ516+play+music+on+telegram+voice+chat+feature;Managed+by+export+gabbar%E2%9D%A4%EF%B8%8F"> 
 
  </p>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
 
 <p align="center">
     <img src="https://img.shields.io/github/stars/MrProgrammer72/GJ516VCBOT?style=for-the-badge" alt="Stars">
@@ -20,6 +25,9 @@
     <a href="https://github.com/MrProgrammer72/GJ516VCBOT"> <img src="https://img.shields.io/github/repo-size/MrProgrammer72/GJ516VCBOT?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=pink&label=pyrogram&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
+
 
 <details>
 <summary><h3> Requirements 📝</h3></summary>
@@ -86,6 +94,8 @@ cp example.env .env #Use vim to edit ENVs
 vim .env #Fill up your ENVs ( Steps press i to enter in insert mode then edit the file. Press Esc to exit the editing mode then type :wq! and press Enter key to save the file.)
 python3 main.py # Run the bot
 ```
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
 
 ### ᴄʀᴇᴅɪᴛs 💖
 - [MrProgrammer](https://github.com/MrProgrammer72/GJ516VCBOT): Developer
@@ -96,6 +106,7 @@ python3 main.py # Run the bot
 ### Support & Developer 🎑
 <a href="https://t.me/ADVENTURE_FAMILYS"><img src="https://img.shields.io/badge/-Support%20Group-black.svg?style=for-the-badge&logo=Telegram"></a>
 <a href="https://telegram.me/export_gabbar"><img src="https://img.shields.io/badge/%20Developer-blue.svg?style=for-the-badge&logo=Telegram"></a>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
-------------------------------------------------
--------------------------------------------------
+
+
