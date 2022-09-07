@@ -4,7 +4,9 @@
 </p>
 <p align="center"><a href="https://t.me/ADVENTURE_FAMILYS"><img src="https://telegra.ph/file/9a42a0c6c293f021f5445.jpg"></a></p>
 
- GJ516 play music on Telegram Voice Chat Feature</b><br>
+<img src="https://readme-typing-svg.herokuapp.com?color=00FF00&width=420&lines=GJ516+play+music+on+telegram+voice+chat+feature;Managed+by+export+gabbar%E2%9D%A4%EF%B8%8F"> 
+
+ </p>
 
 <p align="center">
     <img src="https://img.shields.io/github/stars/MrProgrammer72/GJ516VCBOT?style=for-the-badge" alt="Stars">
