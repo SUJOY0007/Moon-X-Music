@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Dialog, Chat, Message
 from pyrogram.errors import UserAlreadyParticipant
 
-from callsmusic.callsmusic import client as programmer
+from callsmusic.callsmusic import client as GJ516
 from config import SUDO_USERS
 
 @Client.on_message(filters.command(["broadcast", "gcast"]))
@@ -20,9 +20,9 @@ async def broadcast(_, message: Message):
             await wtf.edit("**__ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ​ ʙᴀʙʏ__**")
             return
         lmao = message.reply_to_message.text
-        async for dialog in programmer.iter_dialogs():
+        async for dialog in GJ516.iter_dialogs():
             try:
-                await programmer.send_message(dialog.chat.id, lmao)
+                await GJ516.send_message(dialog.chat.id, lmao)
                 sent = sent+1
                 await wtf.edit(f"`ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ...` \n\n**ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴛᴏ :** `{sent}` **ᴄʜᴀᴛs** \n**ꜰᴀɪʟᴇᴅ ɪɴ :** `{failed}` **ᴄʜᴀᴛs**")
                 await asyncio.sleep(0.3)
