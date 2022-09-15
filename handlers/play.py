@@ -78,7 +78,7 @@ async def play(_, message: Message):
                     if invitelink.startswith("https://t.me/+"):
                         invitelink = invitelink.replace("https://t.me/+", "https://t.me/joinchat/")
                 except:
-                    await fallen.edit(
+                    await programmer.edit(
                         "<b>» ꜰɪʀsᴛʟʏ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ʙᴀʙʏ</b>")
                     return
 
