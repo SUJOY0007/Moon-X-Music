@@ -37,7 +37,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-@Client.on_message(command(["ping", "repo", "anon", "alive"]) & filters.group & ~filters.edited & ~filters.private)
+@Client.on_message(command(["ping", "repo", "gabbar", "alive"]) & filters.group & ~filters.edited & ~filters.private)
 
 async def help(client: Client, message: Message):
     await message.delete()
@@ -50,11 +50,11 @@ async def help(client: Client, message: Message):
     end = datetime.now()
     resp = (end - start).microseconds / 1000
     await message.reply_sticker("CAACAgUAAxkBAAEENxZiNtPdibVkMsjLZrUG9NK4hotHQgAC2wEAAoM12VSdN9ujxVtnUyME")
-    Jay = await message.reply_photo(
+    Programmer = await message.reply_photo(
         photo=f"{PING_IMG}",
         caption=" ᴩɪɴɢɪɴɢ...⚡ ",
     )
-    await jay.edit_text(
+    await programmer.edit_text(
         f"""<b> ᴩᴏɴɢ ʙᴀʙʏ ! ⚡</b>\n  🏓 `{resp} ᴍs`\n\n<b><u>{BOT_NAME} sʏsᴛᴇᴍ sᴛᴀᴛs:</u></b>\n\n• ᴜᴩᴛɪᴍᴇ : {bot_uptime}\n• ᴄᴩᴜ : {cpu}%\n• ᴅɪsᴋ : {disk}%\n• ʀᴀᴍ : {mem}""",
         reply_markup=InlineKeyboardMarkup(
             [
