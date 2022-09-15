@@ -34,15 +34,15 @@ async def help_cmd(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💫 sᴜᴩᴩᴏʀᴛ 💫", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "📑 Support", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "❄ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ ❄", url="https://telegra.ph/file/9b0455dae14d5639f936d.mp4"
+                        "💡 Git repo", url="https://telegra.ph/file/9b0455dae14d5639f936d.mp4"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "✨ ᴄʟᴏsᴇ ✨", callback_data="close_play"
+                        "🗑️ Close", callback_data="close_play"
                     )
                 ]
             ]
