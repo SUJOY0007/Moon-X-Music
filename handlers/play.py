@@ -55,7 +55,7 @@ async def play(_, message: Message):
 
     await message.delete()
 
-    fallen = await message.reply("» ᴘʀᴏᴄᴇssɪɴɢ​... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ🔎")
+    programmer = await message.reply("» ᴘʀᴏᴄᴇssɪɴɢ​... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ🔎")
 
     chumtiya = message.from_user.mention
 
@@ -90,12 +90,12 @@ async def play(_, message: Message):
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
-                    await GJ516.edit(
+                    await programmer.edit(
                         f"<b>» ᴀssɪsᴛᴀɴᴛ ɪs ɴᴏᴛ ɪɴ ᴛʜɪs ᴄʜᴀᴛ ʙᴀʙʏ, sᴇɴᴅ /join ғɪʀsᴛ ᴛɪᴍᴇ ᴛᴏ ᴏʀᴅᴇʀ ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴛᴏ ᴊ​ᴏɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ.")
     try:
         await USER.get_chat(chid)
     except Exception as e:
-        await GJ516.edit(
+        await programmer.edit(
             f"<i>» ᴀssɪsᴛᴀɴᴛ ғᴀɪʟᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀᴛ.</i>\n\nʀᴇᴀsᴏɴ : {e}")
         return
     
@@ -149,7 +149,7 @@ async def play(_, message: Message):
             views = "NaN"
 
         if (dur / 60) > DURATION_LIMIT:
-            await GJ516.edit(
+            await programmer.edit(
                 f"» sᴏʀʀʏ ʙᴀʙʏ, ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ  {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ"
             )
             return
@@ -159,7 +159,7 @@ async def play(_, message: Message):
             return await GJ516.edit(
                 "» ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴀʀᴄʜ ʙᴀʙʏ🤦🏻‍♂️"
             )
-        await GJ516.edit("🔎")
+        await programmer.edit("🔎")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -183,14 +183,14 @@ async def play(_, message: Message):
                 secmul *= 60
 
         except Exception as e:
-            await GJ516.edit(
+            await programmer.edit(
                 "» ɴᴏᴛ ғᴏᴜɴᴅ, ᴛʀʏ sᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴛʜᴇ sᴏɴɢ ɴᴀᴍᴇ ʙᴀʙʏ"
             )
             print(str(e))
             return
 
         if (dur / 60) > DURATION_LIMIT:
-            await GJ516.edit(
+            await programmer.edit(
                 f"» sᴏʀʀʏ ʙᴀʙʏ, ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ  {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ"
             )
             return
@@ -243,7 +243,7 @@ async def play(_, message: Message):
         disable_web_page_preview=True,
     )
 
-    return await GJ516.delete()
+    return await programmer.delete()
 
 @Client.on_callback_query(filters.regex("close_play"))
 async def in_close_play(_, query: CallbackQuery):
