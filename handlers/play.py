@@ -65,7 +65,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Anonymous"
+        user.first_name = "Programmer"
     usar = user
     wew = usar.id
     try:
@@ -149,17 +149,17 @@ async def play(_, message: Message):
             views = "NaN"
 
         if (dur / 60) > DURATION_LIMIT:
-            await fallen.edit(
+            await GJ516.edit(
                 f"» sᴏʀʀʏ ʙᴀʙʏ, ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ  {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ"
             )
             return
         file_path = await converter.convert(youtube.download(url))
     else:
         if len(message.command) < 2:
-            return await fallen.edit(
+            return await GJ516.edit(
                 "» ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴀʀᴄʜ ʙᴀʙʏ🤦🏻‍♂️"
             )
-        await fallen.edit("🔎")
+        await GJ516.edit("🔎")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -183,14 +183,14 @@ async def play(_, message: Message):
                 secmul *= 60
 
         except Exception as e:
-            await fallen.edit(
+            await GJ516.edit(
                 "» ɴᴏᴛ ғᴏᴜɴᴅ, ᴛʀʏ sᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴛʜᴇ sᴏɴɢ ɴᴀᴍᴇ ʙᴀʙʏ"
             )
             print(str(e))
             return
 
         if (dur / 60) > DURATION_LIMIT:
-            await fallen.edit(
+            await GJ516.edit(
                 f"» sᴏʀʀʏ ʙᴀʙʏ, ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ  {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ"
             )
             return
@@ -202,12 +202,15 @@ async def play(_, message: Message):
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
         await message.reply_text(
-            text=f"**» ᴛʀᴀᴄᴋ ǫᴜᴇᴜᴇᴅ ᴀᴛ {position} ʙᴀʙʏ**\n📌 **ᴛɪᴛʟᴇ​ :**[{title[:65]}]({url})\n\n🕕** ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` **ᴍɪɴᴜᴛᴇs**\n💕** ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​ : **{chumtiya}",
+            text=f"**» ⏳ ᴛʀᴀᴄᴋ ǫᴜᴇᴜᴇᴅ ᴀᴛ {position} ʙᴀʙʏ**\n📌 **ᴛɪᴛʟᴇ​ :**[{title[:65]}]({url})\n\n🕤** ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` **ᴍɪɴᴜᴛᴇs**\n👤** ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​ : **{chumtiya}",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("• sᴜᴩᴩᴏʀᴛ •", url=f"https://t.me/{SUPPORT_GROUP}"),
-                    InlineKeyboardButton("» ᴄʟᴏsᴇ «", callback_data="close_play")
+                    InlineKeyboardButton("📑 Support", url=f"https://t.me/{SUPPORT_GROUP}"),
+                    InlineKeyboardButton("🗑️ close", callback_data="close_play")
+                ],
+                [
+                   InlineKeyboardButton("👨‍💻 developer", url=f"https://t.me/export_gabbar")
                 ],
             ]
         ),
@@ -225,19 +228,22 @@ async def play(_, message: Message):
             )
 
         await message.reply_text(
-            text=f"**ㅤㅤㅤ» ɴᴏᴡ ᴘʟᴀʏɪɴɢ «**\n📌 **ᴛɪᴛʟᴇ​:** [{title[:65]}]({url})\n🕕 **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}` ᴍɪɴᴜᴛᴇs\n💕 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​:** {chumtiya}\n💔 **ᴘʟᴀʏɪɴɢ ɪɴ​:** `{message.chat.title}`\n🎥 **sᴛʀᴇᴀᴍ ᴛʏᴘᴇ:** ʏᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ\n",
+            text=f"**ㅤㅤㅤ» ⏳ ɴᴏᴡ ᴘʟᴀʏɪɴɢ «**\n📌 **ᴛɪᴛʟᴇ​:** [{title[:65]}]({url})\n🕕 **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}` ᴍɪɴᴜᴛᴇs\n👤**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​:** {chumtiya}\n **ᴘʟᴀʏɪɴɢ ɪɴ​:** `{message.chat.title}`\n🎥 **sᴛʀᴇᴀᴍ ᴛʏᴘᴇ:** ʏᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("• sᴜᴩᴩᴏʀᴛ •", url=f"https://t.me/{SUPPORT_GROUP}"),
-                    InlineKeyboardButton("» ᴄʟᴏsᴇ «", callback_data="close_play")
+                    InlineKeyboardButton("📑 Support", url=f"https://t.me/{SUPPORT_GROUP}"),
+                    InlineKeyboardButton("🗑️ close", callback_data="close_play")
+                ],
+                [
+                    InlineKeyboardButton("👨‍💻 developer", url=f"https://t.me/export_gabbar")
                 ],
             ]
         ),
         disable_web_page_preview=True,
     )
 
-    return await fallen.delete()
+    return await GJ516.delete()
 
 @Client.on_callback_query(filters.regex("close_play"))
 async def in_close_play(_, query: CallbackQuery):
