@@ -52,15 +52,15 @@ async def help(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAEENxZiNtPdibVkMsjLZrUG9NK4hotHQgAC2wEAAoM12VSdN9ujxVtnUyME")
     Programmer = await message.reply_photo(
         photo=f"{PING_IMG}",
-        caption=" ᴩɪɴɢɪɴɢ...⚡ ",
+        caption=" Pinging...⚡ ",
     )
     await programmer.edit_text(
-        f"""<b> ᴩᴏɴɢ ʙᴀʙʏ ! ⚡</b>\n  🏓 `{resp} ᴍs`\n\n<b><u>{BOT_NAME} sʏsᴛᴇᴍ sᴛᴀᴛs:</u></b>\n\n• ᴜᴩᴛɪᴍᴇ : {bot_uptime}\n• ᴄᴩᴜ : {cpu}%\n• ᴅɪsᴋ : {disk}%\n• ʀᴀᴍ : {mem}""",
+        f"""<b> pong ping ! ⚡</b>\n  🏓 `{resp} ms`\n\n<b><u>{BOT_NAME} system stats:</u></b>\n\n• Uptime : {bot_uptime}\n• Cpu : {cpu}%\n• Disk : {disk}%\n• Ram : {mem}""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "📑 Support ", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "📨 Support ", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
                         "💡Git repo ", url="https://telegra.ph/file/9b0455dae14d5639f936d.mp4"
