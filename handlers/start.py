@@ -16,9 +16,9 @@ async def start_(client: Client, message: Message):
 
      This is [{bn}](t.me/{bu}), a super fast vc player bot for telegram group voicechat...
 
-All of my command can be used with My command handle : ( `/ . • $ ^ ~ + * ?` )
+• All of my command can be used with My command handle : ( `/ . • $ ^ ~ + * ?` )
 
-If you have any questions about me then dm to my [ᴏᴡɴᴇʀ](t.me/{me}) ...
+• If you have any questions about me then dm to my [ᴏᴡɴᴇʀ](t.me/{me}) ...
 ━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
