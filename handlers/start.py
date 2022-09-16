@@ -14,7 +14,7 @@ async def start_(client: Client, message: Message):
         caption=f"""**━━━━━━━━━━━━━━━━━━
  Hey {message.from_user.mention()} !
 
-        This is [{bn}](t.me/{bu}), a super fast vc player bot for telegram group voicechat...
+     This is [{bn}](t.me/{bu}), a super fast vc player bot for telegram group voicechat...
 
 All of my command can be used with My command handle : ( `/ . • $ ^ ~ + * ?` )
 
