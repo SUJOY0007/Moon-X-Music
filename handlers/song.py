@@ -63,7 +63,7 @@ def song(client, message):
         message.reply_audio(audio_file, caption=rep, thumb=thumb_name, parse_mode='md', title=title, duration=dur)
         m.delete()
     except Exception as e:
-        m.edit("** Downloading error, report this at  [{bn} support](t.me/{bu}) ✨**")
+        m.edit("** Downloading error, report this at  [{bn} support](t.me/{bu}) **")
         print(e)
 
     try:
