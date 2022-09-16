@@ -18,7 +18,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                f"ʜᴇʏ {message.from_user.mention()},\nᴛʜɪs ɪs [{bn}](t.me/{lel}) ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.\n\nᴅᴏɴ'ᴛ ᴛʀʏ ᴛᴏ sᴘᴀᴍ ʜᴇʀᴇ ᴇʟsᴇ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ꜰᴜ*ᴋᴇᴅ ʙʏ [Ξ✘𝙋𝞡𝙍𝙏 𝙂𝚫𝘽𝘽𝚫𝙍 ｡✘𝘿:🔆👣](t.me/{OWNER_USERNAME}).\n",
+                f"hey {message.from_user.mention()},\nThis is [{bn}](t.me/{lel}) bot assistant account.\n\ndon't try to spam here eles you will get fu*ked by [Ξ✘𝙋𝞡𝙍𝙏 𝙂𝚫𝘽𝘽𝚫𝙍](t.me/{OWNER_USERNAME}).\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -26,7 +26,7 @@ async def pmPermit(client: USER, message: Message):
                         "🤖 Bot", url=f"https://t.me/{lel}"
                     ),
                     InlineKeyboardButton(
-                        "📑 Support", url="https://github.com/MrProgrammer72/GJ516VCBOT"
+                        "📨 Support", url="https://github.com/MrProgrammer72/GJ516VCBOT"
                     )
                 ],[ 
                     InlineKeyboardButton(
@@ -47,11 +47,11 @@ async def bye(client: Client, message: Message):
         queryy = text[1]
         if queryy == "on":
             PMSET = True
-            await message.reply_text("» ᴘᴍ ᴘᴇʀᴍɪᴛ ᴇɴᴀʙʟᴇᴅ ʙᴀʙʏ.")
+            await message.reply_text("Pm permit enable.")
             return
         if queryy == "off":
             PMSET = None
-            await message.reply_text("» ᴘᴍ ᴘᴇʀᴍɪᴛ ᴅɪsᴀʙʟᴇᴅ ʙᴀʙʏ.")
+            await message.reply_text(" permit disable.")
             return
 
 @USER.on_message(filters.text & filters.private & filters.me)        
@@ -68,7 +68,7 @@ async def pmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if not chat_id in pchats:
         pchats.append(chat_id)
-        await message.reply_text("» ᴀᴘᴘʀᴏᴠᴇᴅ ᴛᴏ ᴘᴍ​.")
+        await message.reply_text("Aprove​ to pm.")
         return
     message.continue_propagation()    
     
@@ -78,6 +78,6 @@ async def rmpmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if chat_id in pchats:
         pchats.remove(chat_id)
-        await message.reply_text("» ᴅɪsᴀᴘᴘʀᴏᴠᴇᴅ ᴛᴏ ᴘᴍ​.")
+        await message.reply_text("Disapprove to pm.")
         return
     message.continue_propagation()
