@@ -55,7 +55,7 @@ async def play(_, message: Message):
 
     await message.delete()
 
-    programmer = await message.reply("Processing... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ🔎")
+    programmer = await message.reply("🔄 Processing Query... Please Wait!")
 
     chumtiya = message.from_user.mention
 
