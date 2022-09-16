@@ -12,35 +12,30 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMG}",
         caption=f"""**━━━━━━━━━━━━━━━━━━
- ʜᴇʏ {message.from_user.mention()} !
+ Hey {message.from_user.mention()} !
 
-        ᴛʜɪs ɪs [{bn}](t.me/{bu}), ᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏᴄʜᴀᴛs...
+        This is [{bn}](t.me/{bu}), a super fast vc player bot for telegram group voicechat...
 
-ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ ʜᴀɴᴅʟᴇʀs : ( `/ . • $ ^ ~ + * ?` )
-┏━━━━━━━━━━━━━━┓
+All of my command can be used with My command handle : ( `/ . • $ ^ ~ + * ?` )
 
-┣★ ᴍᴀᴅᴇ ʙʏ: [𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐞𝐫](t.me/{me})
-
-┗━━━━━━━━━━━━━━┛
-
- ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](t.me/{me}) ʙᴀʙʏ...
+If you have any questions about me then dm to my [ᴏᴡɴᴇʀ](t.me/{me}) ...
 ━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add Me Baby ", url=f"https://t.me/{bu}?startgroup=true"
+                        "✚ Add me to your Group", url=f"https://t.me/{bu}?startgroup=true"
                        ),
                   ],[
                     InlineKeyboardButton(
                         "👤 Bot Owner ", url=f"https://t.me/{me}"
                     ),
                     InlineKeyboardButton(
-                        "📑 Support ", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "📨 Support ", url=f"https://t.me/{SUPPORT_GROUP}"
                     )
                 ],[
                     InlineKeyboardButton(
-                        "🔎 Inline ", switch_inline_query_current_chat=""
+                        "✅ Inline ", switch_inline_query_current_chat=""
                     ),
                     InlineKeyboardButton(
                         "💡 Git repo", url="https://telegra.ph/file/9b0455dae14d5639f936d.mp4"
