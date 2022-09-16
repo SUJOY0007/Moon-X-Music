@@ -45,17 +45,17 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "» ɴᴏᴛ ғᴏᴜɴᴅ, ᴛʀʏ sᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴛʜᴇ sᴏɴɢ ɴᴀᴍᴇ."
+            " Not found, try searching with the song name."
         )
         print(str(e))
         return
-    m.edit(f"» ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ sᴏɴɢ ꜰʀᴏᴍ {bn} sᴇʀᴠᴇʀ ʙᴀʙʏ​.")
+    m.edit(f"Downloading song form {bn} server.")
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"**• ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ​ » [{bn}](t.me/{bu}) 👤\n• ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​ » {chutiya}\n• sᴇᴀʀᴄʜᴇᴅ ғᴏʀ » {query}**"
+        rep = f"** 🆙 ​Upload by [{bn}](t.me/{bu}) 👤\n• Requested by​  {chutiya}\n🔎 search for  {query}**"
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -63,7 +63,7 @@ def song(client, message):
         message.reply_audio(audio_file, caption=rep, thumb=thumb_name, parse_mode='md', title=title, duration=dur)
         m.delete()
     except Exception as e:
-        m.edit("**» ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴇʀʀᴏʀ, ʀᴇᴩᴏʀᴛ ᴛʜɪs ᴀᴛ​ » [{bn} sᴜᴩᴩᴏʀᴛ](t.me/{bu}) ✨**")
+        m.edit("** Downloading error, report this at  [{bn} support](t.me/{bu}) ✨**")
         print(e)
 
     try:
