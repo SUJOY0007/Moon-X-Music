@@ -50,11 +50,11 @@ async def help(client: Client, message: Message):
     end = datetime.now()
     resp = (end - start).microseconds / 1000
     await message.reply_sticker("CAACAgUAAxkBAAEENxZiNtPdibVkMsjLZrUG9NK4hotHQgAC2wEAAoM12VSdN9ujxVtnUyME")
-    Programmer = await message.reply_photo(
+    Jay = await message.reply_photo(
         photo=f"{PING_IMG}",
         caption=" Pinging...⚡ ",
     )
-    await programmer.edit_text(
+    await jay.edit_text(
         f"""<b> pong ping ! ⚡</b>\n  🏓 `{resp} ms`\n\n<b><u>{BOT_NAME} system stats:</u></b>\n\n• Uptime : {bot_uptime}\n• Cpu : {cpu}%\n• Disk : {disk}%\n• Ram : {mem}""",
         reply_markup=InlineKeyboardMarkup(
             [
