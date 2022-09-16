@@ -10,7 +10,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 async def help_cmd(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAx0CZIiVngABAoCAYqWU-JzBZtfz14vr_DfDkJyy7X8AAjYGAAIsk1lUo7RMhQfOm28eBA")
     await message.reply_photo(f"{START_IMG}", caption=f"""
-❄ **AVAILABLE COMMAND IN {BOT_NAME} :**
+🔴 **AVAILABLE COMMAND IN {BOT_NAME} :**
 
 ✅ /play : Start streaming the requested track on videochat.
 ✅ /pause : Pause the stream.
@@ -23,7 +23,7 @@ async def help_cmd(client: Client, message: Message):
 ✅ /song : Downloads the requested the song and send it to you .
 ✅ /search : Search the given query on youtube and shows you the result.
 
-🥵 **SUDO COMMAND :**
+🔵 **SUDO COMMAND :**
 
 ✅ /broadcast : Broadcast a massage to served chats of the bot.
 ✅ /eval or /sh : Runs the gives codes on the bot's terminal.
