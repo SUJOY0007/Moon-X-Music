@@ -228,7 +228,7 @@ async def play(_, message: Message):
             )
 
         await message.reply_text(
-            text=f"**📡 Started Streaming **\n💡**Title​:** [{title[:65]}]({url})\n🕕 **Duration:** `{duration}` Min\n👤**Requested by​:** {chumtiya}\n⏯️**Playing in:** `{message.chat.title}`\n🎥 **Stream type:** YouTube music\n",
+            text=f"**📡 Started Streaming **\n💡**Title​:** [{title[:65]}]({url})\n🕕 **Duration:** `{duration}` Min\n👤**Requested by​:** {chumtiya}\n⏯️**Playing in:**`{message.chat.title}`\n🎥 **Stream type:** YouTube music\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
