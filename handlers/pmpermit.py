@@ -26,7 +26,7 @@ async def pmPermit(client: USER, message: Message):
                         "🤖 Bot", url=f"https://t.me/{lel}"
                     ),
                     InlineKeyboardButton(
-                        "📨 Support", url="https://github.com/MrProgrammer72/GJ516VCBOT"
+                        "📨 Support", url=f"https://t.me/{SUPPORT_GROUP}"
                     )
                 ],[ 
                     InlineKeyboardButton(
