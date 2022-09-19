@@ -37,7 +37,7 @@ async def help_cmd(client: Client, message: Message):
                         "📨 Support", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "💡 Git repo", url="https://te.legra.ph/file/db7c6b18567b5e81165ad.mp4"
+                        "📨 Channel", url="https://t.me/{CHANNEL_UPDATES}"
                     )
                 ],
                 [
