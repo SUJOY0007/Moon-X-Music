@@ -49,7 +49,7 @@ async def help(client: Client, message: Message):
     start = datetime.now()
     end = datetime.now()
     resp = (end - start).microseconds / 1000
-    await message.reply_sticker("CAACAgUAAx0CZD3aQwACIr9jJIxecVQsxT787U_l_zHwH5LvhQAChQYAAqpEQFZjcdyVyAJilCkE")
+    await message.reply_sticker("CAACAgIAAx0CZD3aQwACJDBjJ-eZl2p-v4EhBIqoKsKApbreVAACZQgAAk12UUmzP2slgKFtESkE")
     jay = await message.reply_photo(
         photo=f"{PING_IMG}",
         caption=" Pinging...⚡ ",
