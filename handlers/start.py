@@ -12,9 +12,9 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMG}",
         caption=f"""**━━━━━━━━━━━━━━━━━━
- Hey {message.from_user.mention()} !
+ Hey {message.from_user.mention()} 🤍!
 
-     This is [{bn}](t.me/{bu}), a super fast vc player bot for telegram group voicechat...
+     This is [{bn}](t.me/{bu}), a super fast vc player bot for telegram group voicechat. Managed by export gabbar..
 
 • All of my command can be used with My command handle : ( `/ . • $ ^ ~ + * ?` )
 
