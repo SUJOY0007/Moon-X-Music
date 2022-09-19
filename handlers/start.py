@@ -33,14 +33,14 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton(
                         "📨 Support ", url=f"https://t.me/{SUPPORT_GROUP}"
                     )
-                ],[
+                  ],[
                     InlineKeyboardButton(
                         "👤 Bot Owner ", url=f"https://t.me/{me}"
                     ),
                     InlineKeyboardButton(
                         "👨‍💻 Developer ", url=f"https://t.me/export_gabbar"
                     ),
-                ],[
+                  ],[
                     InlineKeyboardButton(
                         "✅ Inline ", switch_inline_query_current_chat=""
                     ),
