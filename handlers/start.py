@@ -35,6 +35,13 @@ async def start_(client: Client, message: Message):
                     )
                 ],[
                     InlineKeyboardButton(
+                        "👤 Bot Owner ", url=f"https://t.me/{me}"
+                    ),
+                    InlineKeyboardButton(
+                        "📨 Support ", url=f"https://t.me/{SUPPORT_GROUP}"
+                    ),
+                ],[
+                    InlineKeyboardButton(
                         "✅ Inline ", switch_inline_query_current_chat=""
                     ),
                     InlineKeyboardButton(
