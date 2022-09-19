@@ -28,7 +28,7 @@ async def start_(client: Client, message: Message):
                        ),
                   ],[
                     InlineKeyboardButton(
-                        "👤 Bot Owner ", url=f"https://t.me/{me}"
+                        "📨 Channel ", url=f"https://t.me/{CHANNEL_UPDATES}"
                     ),
                     InlineKeyboardButton(
                         "📨 Support ", url=f"https://t.me/{SUPPORT_GROUP}"
@@ -38,7 +38,7 @@ async def start_(client: Client, message: Message):
                         "👤 Bot Owner ", url=f"https://t.me/{me}"
                     ),
                     InlineKeyboardButton(
-                        "📨 Support ", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "👨‍💻 Developer ", url=f"https://t.me/export_gabbar"
                     ),
                 ],[
                     InlineKeyboardButton(
