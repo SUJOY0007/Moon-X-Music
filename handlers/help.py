@@ -8,7 +8,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 
 @Client.on_message(command("help") & filters.private & ~filters.group & ~filters.edited)
 async def help_cmd(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAx0CZD3aQwACIsJjJIx4iT4vooGcQSv5aQEkatq4dAACKQUAAk4cQFY-Yg-_CGuSNikE")
+    await message.reply_sticker("CAACAgIAAx0CZD3aQwACJDFjJ-eam0HLnauJcFZ2QG1VMhVI5AAC3QgAArNsUEnxuIcx41T1ECkE")
     await message.reply_photo(f"{START_IMG}", caption=f"""
 🔴 **AVAILABLE COMMAND IN {BOT_NAME} :**
 
