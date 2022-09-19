@@ -207,10 +207,10 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("📨 Support", url=f"https://t.me/{SUPPORT_GROUP}"),
-                    InlineKeyboardButton("🗑️ close", callback_data="close_play")
+                    InlineKeyboardButton("📨 Channel", url=f"https://t.me/{CHANNEL_UPDATES}")
                 ],
                 [
-                   InlineKeyboardButton("👨‍💻 developer", url=f"https://t.me/export_gabbar")
+                   InlineKeyboardButton("🗑️ Close Menu", callback_data="close_play")
                 ],
             ]
         ),
@@ -233,10 +233,10 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("📨 Support", url=f"https://t.me/{SUPPORT_GROUP}"),
-                    InlineKeyboardButton("🗑️ close", callback_data="close_play")
+                    InlineKeyboardButton("📨 Channel ", url=f"https://t.me/{CHANNEL_UPDATES}")
                 ],
                 [
-                    InlineKeyboardButton("👨‍💻 developer", url=f"https://t.me/export_gabbar")
+                    InlineKeyboardButton("🗑️ Close Menu", callback_data="close_play")
                 ],
             ]
         ),
