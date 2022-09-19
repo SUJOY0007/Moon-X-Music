@@ -8,7 +8,7 @@ import psutil
 from handlers import StartTime
 from helpers.filters import command
 from telegram.utils.helpers import escape_markdown, mention_html
-from config import BOT_USERNAME, SUPPORT_GROUP, PING_IMG, BOT_NAME
+from config import BOT_USERNAME, SUPPORT_GROUP, CHANNEL_UPDATES, PING_IMG, BOT_NAME
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
