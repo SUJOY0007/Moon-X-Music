@@ -1,7 +1,7 @@
 import asyncio
 
 from helpers.filters import command
-from config import BOT_NAME as bn, BOT_USERNAME as bu, SUPPORT_GROUP, OWNER_USERNAME as me, START_IMG
+from config import BOT_NAME as bn, BOT_USERNAME as bu, SUPPORT_GROUP, OWNER_USERNAME, CHANNEL_UPDATES as me, START_IMG
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -12,7 +12,7 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMG}",
         caption=f"""**━━━━━━━━━━━━━━━━━━
- Hey {message.from_user.mention()} 🤍!
+ Hey {message.from_user.mention()} 🤍! 
 
      This is [{bn}](t.me/{bu}), a super fast vc player bot for telegram group voicechat. Managed by export gabbar..
 
