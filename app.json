@@ -48,7 +48,12 @@
       "description": "Username of the group where users will go and disturb you, without @",
       "required": false,
       "value": "myworldGJ516"
-    },
+
+    },  "MUST_JOIN": { 
+       "description": "Add username/id of a channel/group", 
+       "required": false, 
+       "value": "ADVENTURE_FAMILYS" 
+     },
     "SUDO_USERS": {
       "description": "User IDs of the users who will counted as admin everywhere (if more than one separate them by space).",
       "required": true,
