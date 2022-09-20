@@ -49,7 +49,8 @@
       "required": false,
       "value": "myworldGJ516"
 
-    },  "MUST_JOIN": { 
+    }, 
+       "MUST_JOIN": { 
        "description": "Add username/id of a channel/group", 
        "required": false, 
        "value": "ADVENTURE_FAMILYS" 
