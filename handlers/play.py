@@ -150,7 +150,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await programmer.edit(
-                f"Sorry, track longer than  {DURATION_LIMIT} minutes are not allowed to play"
+                f"Duration Limit Exceeded\n\n Allowed Duration:{DURATION_LIMIT} minutes (s)"
             )
             return
         file_path = await converter.convert(youtube.download(url))
