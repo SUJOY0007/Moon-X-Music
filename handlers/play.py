@@ -109,7 +109,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"Sorry, Track longer than {DURATION_LIMIT} minutes are not allowed to play"
+                f"Duration Limit Exceeded\n\n•Allowed Duration: 60 minutes (s)\n•Received Duration: {DURATION_LIMIT} hour(s)"
             )
 
         file_name = get_file_name(audio)
@@ -150,7 +150,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await programmer.edit(
-                f"Duration Limit Exceeded\n\n Allowed Duration:{DURATION_LIMIT} minutes (s)"
+                f"Duration Limit Exceeded\n\n•Allowed Duration: 60 minutes (s)\n•Received Duration: {DURATION_LIMIT} hour(s)"
             )
             return
         file_path = await converter.convert(youtube.download(url))
