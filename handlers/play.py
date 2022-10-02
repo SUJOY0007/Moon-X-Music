@@ -157,7 +157,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await programmer.edit(
-                "Give the some text to search "
+                "Usage: /play [Music Name or /nYoutube Link or Reply to Audio] 🥀 "
             )
         await programmer.edit("🔎")
         query = message.text.split(None, 1)[1]
