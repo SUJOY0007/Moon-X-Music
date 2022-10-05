@@ -41,7 +41,7 @@
     "SUPPORT_GROUP": {
       "description": "Username of the group where users will go and disturb you, without @",
       "required": false,
-      "value": "ADVENTURE_FAMILYS"
+      "value": "GJ516_DISCUSS_GROUP"
 
     },
     "CHANNEL_UPDATES": {
