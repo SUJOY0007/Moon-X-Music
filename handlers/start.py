@@ -11,7 +11,13 @@ async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgIAAx0CZD3aQwACJ_hjPkS4Komyh2BnI4s_NUdAdzYSpwAClgAD5KDOB-VgUnOaX5eTKgQ")
     await message.reply_photo(
         photo=f"{START_IMG}",
-        caption=f""" **Hey {message.from_user.mention()},🖤**\n   **This is [{bn}](t.me/{bu}), ** 🥀\n\n** ⦿ A powerfull music player bot with some awesome and useful features.**\n** ⦿ All of my commands are (/ . • $ ^ ~ + * ?).\n ⦿ Made 🖤 by: [𝗝𝝙𝗬 ](https://t.me/export_gabbar)** """,
+        caption=f""" ** Hey {message.from_user.mention()} , 🥀\n\n
+๏ This is [{bn}](t.me/{bu}) ,  !
+➻ The most Powerful telegram music  bot with some awesome and useful features.
+
+──────────────────
+๏  All of my command can be used with My command handle : ( / . • $ ^ ~ + * ? )
+➻ Made 🖤 by : [𝗝𝝙𝗬🥀](https://t.me/export_gabbar) ** """,
     reply_markup=InlineKeyboardMarkup(
             [
                 [
