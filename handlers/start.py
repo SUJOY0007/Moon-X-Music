@@ -17,7 +17,7 @@ async def start_(client: Client, message: Message):
 
 ──────────────────
 ๏  All of my command can be used with My command handle : ( / . • $ ^ ~ + * ? )
-➻ Made 🖤 by : [𝗝𝝙𝗬🥀](https://t.me/export_gabbar) ** """,
+➻ Made 🖤 by : [𝗝𝝙𝗬🥀](https://t.me/{me}) ** """,
     reply_markup=InlineKeyboardMarkup(
             [
                 [
