@@ -17,8 +17,8 @@ async def start_(client: Client, message: Message):
       telegram music bot which Can help 
       play your favourite Song in your 
       group.
-   ✦ All of my command can be used with
-     my command handlers : ( / . • $ 
+   ✦ All of my command can be used 
+     with my command handlers : ( / . • $ 
      ^ ~ + * ? )
    ✦ Managed 🖤 by Jay🥀 
     ━━━━━━━ *GJ516* ━━━━━━━  
