@@ -11,15 +11,16 @@ async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgIAAx0CZD3aQwACJD1jJ-k4Y3XA0H9cEU6QHfPxyNZjhwAC6BYAAv2LEEra9hZZ9LdRQCkE")
     await message.reply_photo(
         photo=f"{START_IMG}",
-        caption=f"""**━━━━━━━━━━━━━━━━━━
- Hey {message.from_user.mention()} 🤍! 
-
-     This is [{bn}](t.me/{bu}), a super fast vc player bot for telegram group voicechat. Managed by export gabbar..
-
-• All of my command can be used with My command handle : ( `/ . • $ ^ ~ + * ?` )
-
-• If you have any questions about me then dm to my [ᴏᴡɴᴇʀ](t.me/{me}) ...
-━━━━━━━━━━━━━━━━━━**""",
+        caption=f""" *ʜᴇʟʟᴏ  {message.from_user.mention()}  !* 
+    ━━━━━━━ *GJ516* ━━━━━━━ 
+   ✦ [{bn}](t.me/{bu}) 🥀, is a  
+     telegram music bot which 
+     Can help play your favourite 
+     Song in your group.
+   ✦ All of my command can be used with my command handlers : ( / . • $ ^ ~ + * ? )
+   ✦ Managed 🖤 by Jay🥀 
+    ━━━━━━━ *GJ516* ━━━━━━━  
+    [Frist add me in group then see my power.](https://t.me/{bu}?startgroup=true)**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
