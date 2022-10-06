@@ -11,14 +11,14 @@ async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgIAAx0CZD3aQwACJ_hjPkS4Komyh2BnI4s_NUdAdzYSpwAClgAD5KDOB-VgUnOaX5eTKgQ")
     await message.reply_photo(
         photo=f"{START_IMG}",
-        caption=f""" **Hey {message.from_user.mention()},🖤**\n   **This is [{bn}](t.me/{bu}), ** 🥀\n **A powerfull music player bot with some awesome and useful features.**\n\n**All of my commands are (/ . • $ ^ ~ + * ?).\n\nManaged 🖤 by: Jay🥀** """,
+        caption=f""" **Hey {message.from_user.mention()},🖤**\n   **This is [{bn}](t.me/{bu}), ** 🥀\n\n** ⦿ A powerfull music player bot with some awesome and useful features.**\n** ⦿ All of my commands are (/ . • $ ^ ~ + * ?).\n ⦿ Managed 🖤 by: Jay🥀** """,
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
                         "✚ Add me to your Group", url=f"https://t.me/{bu}?startgroup=true"
                        ),
-                  ],[
+                 ],[
                     InlineKeyboardButton(
                         "📨 Channel ", url=f"https://t.me/{CHANNEL_UPDATES}"
                     ),
