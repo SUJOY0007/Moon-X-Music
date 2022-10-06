@@ -12,16 +12,17 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMG}",
         caption=f""" *ʜᴇʟʟᴏ  {message.from_user.mention()}  !* 
-    ━━━━━━━ *GJ516* ━━━━━━━ 
-   ✦ [{bn}](t.me/{bu}) 🥀, is a 
-      telegram music bot which Can help 
-      play your favourite Song in your 
-      group.
-   ✦ All of my command can be used 
-     with my command handlers 
-     : ( / . • $ ^ ~ + * ? )
+    ━━━━━━━ *GJ516* ━━━━━━━━
+   ✦ [{bn}](t.me/{bu})🥀, is a 
+      telegram music bot which 
+      Can help play your fav 
+      Song in your group.
+   ✦ All of my command can be 
+      used with my command 
+      handlers :
+      ( / . • $ ^ ~ + * ? )
    ✦ Managed 🖤 by Jay🥀 
-    ━━━━━━━ *GJ516* ━━━━━━━  
+    ━━━━━━━ *GJ516* ━━━━━━━━  
     [Frist add me in group then see my power.](https://t.me/{bu}?startgroup=true)**""",
     reply_markup=InlineKeyboardMarkup(
             [
