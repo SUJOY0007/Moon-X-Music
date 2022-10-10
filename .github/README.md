@@ -11,7 +11,7 @@
  </p> 
  ━━━━━━━━━━━━━━━━━━━━
  <details> 
- <summary><h3> Requirements 📝</h3></summary> 
+ <summary> 𝗥𝗲𝗾𝘂𝗶𝗿𝗲𝗺𝗲𝗻𝘁𝘀 📝</summary> 
 
  - FFmpeg 
  - NodeJS [nodesource.com](https://nodesource.com/) 
@@ -19,7 +19,7 @@
  - [PyTgCalls](https://github.com/pytgcalls/pytgcalls) 
  </details> 
  <details> 
- <summary><h3> Features 🔮</h3></summary> 
+ <summary> 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 🔮</summary> 
 
  - Yt-dL Fix 
  - Updated Plug-in 
@@ -30,7 +30,7 @@
  - Smooth Player 
  </details> 
  <details> 
- <summary><h3> Commands 🛠</h3></summary>
+ <summary> 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 🛠</summary>
   
  - `/play <song name>` - play song you requested 
  - `/song <song name>` - download songs you want quickly 
@@ -44,13 +44,16 @@
  - `/end` - stop music play 
  </details> 
 
- ### 🧪 Get `SESSION_NAME` variable: 
-  
- [``Pyrogram Session``](https://telegram.me/StringFatherBot)
+<details>
+<summary>𝗦𝗲𝘀𝘀𝗶𝗼𝗻 🥀</summary>
+
+- 🧪 Get `SESSION_NAME` variable: 
+  - [``Pyrogram Session``](https://telegram.me/StringFatherBot)
+ </details>
  
  <details>
 <summary> 
-𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦 🚀
+𝗗𝗲𝗽𝗹𝗼𝘆𝗺𝗲𝗻𝘁 𝗺𝗲𝘁𝗵𝗼𝗱𝘀 🚀
 </summary> 
 
 
