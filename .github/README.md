@@ -80,7 +80,7 @@
 
  git clone https://github.com/MrProgrammer72/GJ516VCBOT # Clone your repo. 
 
- cd GJ516vcplayer 
+ cd GJ516VCBOT
 
  pip3 install -U -r requirements.txt 
 
