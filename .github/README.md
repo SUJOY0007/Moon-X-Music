@@ -134,3 +134,30 @@
   
 
  ━━━━━━━━━━━━━━━━━━━━
+ 
+
+  
+
+ <h3 align="center"> 
+
+     ─「 ᴄʀᴇᴅɪᴛs 」─ 
+
+ </h3> 
+
+  
+
+ - <b>[ᴀɴᴏɴʏᴍᴏᴜs](https://github.com/AnonymousR1025)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/AnonymousR1025/FallenRobot) </b> 
+
+ - <b>[ᴩᴀᴜʟ ʟᴀʀsᴇɴ](https://github.com/PaulSonOfLars)  ➻  [ᴛɢ ʙᴏᴛ](https://github.com/PaulSonOfLars/tgbot) </b> 
+
+ - <b>[ᴀɴɪᴍᴇ ᴋᴀɪᴢᴏᴋᴜ](https://github.com/AnimeKaizoku)  ➻  [sᴀɪᴛᴀᴍᴀ ʀᴏʙᴏᴛ](https://github.com/AnimeKaizoku/SaitamaRobot) </b> 
+
+ - <b>[ʜᴀᴍᴋᴇʀ ᴄᴀᴛ](https://github.com/TheHamkerCat)  ➻  [ᴡɪʟʟɪᴀᴍ ʙᴜᴛᴄʜᴇʀ](https://github.com/TheHamkerCat/WilliamButcherBot) </b> 
+
+   
+
+ <b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/AnonymousR1025/FallenRobot/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ғᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b> 
+
+  
+
+ ━━━━━━━━━━━━━━━━━━━━
