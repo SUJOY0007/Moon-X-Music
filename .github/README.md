@@ -106,9 +106,10 @@
  <a href="https://telegram.me/FallenXBots"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a> 
  </p> 
 ━━━━━━━━━━━━━━━━━━━━
-  <h3 align="center"> 
+    <h3 align="center"> 
    ─「 ᴄʀᴇᴅɪᴛs 」─ 
  </h3> 
+
  - <b>[ᴀɴᴏɴʏᴍᴏᴜs](https://github.com/AnonymousR1025)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/AnonymousR1025/FallenRobot) </b> 
 
  - <b>[ᴩᴀᴜʟ ʟᴀʀsᴇɴ](https://github.com/PaulSonOfLars)  ➻  [ᴛɢ ʙᴏᴛ](https://github.com/PaulSonOfLars/tgbot) </b> 
@@ -117,10 +118,6 @@
 
  - <b>[ʜᴀᴍᴋᴇʀ ᴄᴀᴛ](https://github.com/TheHamkerCat)  ➻  [ᴡɪʟʟɪᴀᴍ ʙᴜᴛᴄʜᴇʀ](https://github.com/TheHamkerCat/WilliamButcherBot) </b> 
 
-   
-
- <b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/AnonymousR1025/FallenRobot/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ғᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b> 
-
-  
+  <b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/AnonymousR1025/FallenRobot/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ғᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b> 
 
  ━━━━━━━━━━━━━━━━━━━━
