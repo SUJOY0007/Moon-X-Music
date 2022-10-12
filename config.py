@@ -20,4 +20,4 @@ PING_IMG = getenv("PING_IMG", "https://te.legra.ph/file/262e434f76a5f2e414178.jp
 SESSION_NAME = getenv("SESSION_NAME", None)
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "? ~ + • / ! ^ .").split())
 PMPERMIT = getenv("PMPERMIT", "ENABLE")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "185646905").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1864894033").split()))
