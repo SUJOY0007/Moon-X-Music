@@ -107,5 +107,5 @@
    ─「 ᴄʀᴇᴅɪᴛs 」─ 
  </h3> 
 
- - <b>[ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://github.com/Rajpomane)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/Rajpomane) </b> 
+ - <b>[ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://github.com/Rajpomane)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/Rajpomane/GJ516VCBOT) </b> 
 ━━━━━━━━━━━━━━━━━━━━
