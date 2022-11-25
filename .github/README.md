@@ -1,6 +1,6 @@
 
  <h2 align="center">   
-    ──「 𝗚𝗝𝟱𝟭𝟲 𝗩𝗰 𝗣𝗹𝗮𝘆𝗲𝗿 」──  
+    ──「 ✼➢Rᴀᴊᴘᴜᴛ‿✶Kᴀ❣Cʜʜᴏʀᴀ👑 」──  
    </h2>  
  <p align="center">   
 <img src="https://telegra.ph/file/909bd5efe4bebb70d3438.jpg">   
