@@ -14,12 +14,12 @@ async def start_(client: Client, message: Message):
         caption=f""" ** Hey {message.from_user.mention()} , ⚔️\n\n
 ๏ This is [{bn}](t.me/{bu}) ,  !
 ➻ 👑Official Account🖤
-💟Wish Me On 25 July 🎂
+💟Wish Me On 15 August 🎂
 ⚡My Life My Rules💪
 🎶Music ka Diwana💥
 🕉️Mahadev Bhakt🕉️
 ♍I’m not Rich ßut I’m Royal 👑
-༒︎Iɴsᴛᴀɢʀᴀᴍ ɪᴅ ༒︎k_i_n_g_o_f_d_e_v_i_l_s_0_0_7 ☠︎︎.
+༒︎Iɴsᴛᴀɢʀᴀᴍ ɪᴅ ༒︎ mt_legend_xd ☠︎︎.
 
 ──────────────────
 ๏  All of my command can be used with My command handle : ( / . • $ ^ ~ + * ? )
@@ -35,7 +35,7 @@ async def start_(client: Client, message: Message):
                         "⚔️ Chal Channel ko support kar  ", url=f"https://t.me/AASHIYANA_MERA"
                     ),
                     InlineKeyboardButton(
-                        "⚔️ Group Support ", url=f"https://t.me/@COOKIE_WORLD"
+                        "⚔️ Group Support ", url=f"https://t.me/COOKIE_WORLD"
                     )
                   ],[
                     InlineKeyboardButton(
