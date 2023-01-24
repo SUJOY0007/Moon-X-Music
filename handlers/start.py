@@ -42,7 +42,7 @@ async def start_(client: Client, message: Message):
                         "👤 King owner ", url=f"https://t.me/{me}"
                     ),
                     InlineKeyboardButton(
-                        "👨‍💻 Developer ", url=f"https://t.me/RAJPUT_KA_CHORA"
+                        "👨‍💻 Developer ", url=f"https://t.me/MT_LEXTUS_XD"
                     ),
                   ],[
                     InlineKeyboardButton(
