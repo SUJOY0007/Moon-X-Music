@@ -8,7 +8,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 @Client.on_message(command("start") & filters.private & ~filters.group & ~filters.edited)
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("tg://openmessage")
+    await message.reply_sticker("CAACAgUAAxkBAAEOnLVj0FZObesyqVy3VqJJfaqkTm0JGwAC2wgAAo5DAVb47Sdbc1PSei0E")
     await message.reply_photo(
         photo=f"{START_IMG}",
         caption=f""" ** Hey {message.from_user.mention()} , ⚔️\n\n
@@ -23,7 +23,7 @@ async def start_(client: Client, message: Message):
 
 ──────────────────
 ๏  All of my command can be used with My command handle : ( / . • $ ^ ~ + * ? )
-➻ Made 🫶🏻 by : [𝐇𝐀𝐂𝐊𝐄𝐑❤️‍🔥](https://t.me/{me}) ** """,
+➻ Made 🫶🏻 by : [𝐇𝐀𝐂𝐊𝐄𝐑❤️‍🔥](https://t.me/MT_LEXTUS_XD) ** """,
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -32,14 +32,14 @@ async def start_(client: Client, message: Message):
                        ),
                  ],[
                     InlineKeyboardButton(
-                        "⚔️ Chal Channel ko support kar  ", url=f"https://t.me/{CHANNEL_UPDATES}"
+                        "⚔️ Chal Channel ko support kar  ", url=f"https://t.me/AASHIYANA_MERA"
                     ),
                     InlineKeyboardButton(
-                        "⚔️ Group Support ", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "⚔️ Group Support ", url=f"https://t.me/@COOKIE_WORLD"
                     )
                   ],[
                     InlineKeyboardButton(
-                        "👤 King owner ", url=f"https://t.me/{me}"
+                        "👤 King owner ", url=f"https://t.me/MT_LEXTUS_XD"
                     ),
                     InlineKeyboardButton(
                         "👨‍💻 Developer ", url=f"https://t.me/MT_LEXTUS_XD"
