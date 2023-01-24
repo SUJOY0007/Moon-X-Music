@@ -55,15 +55,15 @@ async def help(client: Client, message: Message):
         caption=" Pinging...⚡ ",
     )
     await jay.edit_text(
-        f"""<b> pong ping ! ⚡</b>\n  🏓 `{resp} ms`\n\n<b><u>{BOT_NAME} system stats:</u></b>\n\n✨ Uptime : {bot_uptime}\n🔮 Cpu : {cpu}%\n💫 Disk : {disk}%\n❤️ Ram : {mem}\n\n||ᴍᴀᴅᴇ 🖤 ʙʏ [ᴇxᴘᴏʀᴛ ɢᴀʙʙᴀʀ🥀](https://t.me/export_gabbar)||""",
+        f"""<b> pong ping ! ⚡</b>\n  🏓 `{resp} ms`\n\n<b><u>{BOT_NAME} system stats:</u></b>\n\n✨ Uptime : {bot_uptime}\n🔮 Cpu : {cpu}%\n💫 Disk : {disk}%\n❤️ Ram : {mem}\n\n||ᴍᴀᴅᴇ 🖤 ʙʏ [𝙼𝙾𝙾𝙽𝚂𝙷𝙸𝙽𝙴🥀](https://t.me/MT_LEXTUS_XD)||""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "📨 Support ", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "📨 Support ", url=f"https://t.me/COOKIE_WORLD"
                     ),
                     InlineKeyboardButton(
-                        "📨 Channel ", url=f"https://t.me/{CHANNEL_UPDATES}"
+                        "📨 Channel ", url=f"https://t.me/AASHIYANA_MERA"
                     ),
                 ],
                 [
