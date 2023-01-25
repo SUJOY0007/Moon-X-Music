@@ -97,10 +97,10 @@
  </h3> 
 
   <p align="center"> 
- <a href="https://t.me/YaaroKiMehfil_YKM"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a> 
+ <a href="https://t.me/COOKIE_WORLD"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a> 
  </p> 
  <p align="center"> 
- <a href="https://telegram.me/myworldGJ516"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a> 
+ <a href="https://telegram.me/AASHIYANA_MERA"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a> 
  </p> 
 ━━━━━━━━━━━━━━━━━━━━
     <h3 align="center"> 
