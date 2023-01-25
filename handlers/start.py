@@ -12,7 +12,7 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMG}",
         caption=f""" ** Hey {message.from_user.mention()} , ⚔️\n\n
-๏ This is [{bn}](t.me/{bu}) ,
+๏ This is [{bn}](t.me/{bu})
 ➻ 👑Official Account🖤
 💟Wish Me On 15 August 🎂
 ⚡My Life My Rules💪
