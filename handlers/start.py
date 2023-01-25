@@ -8,18 +8,18 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 @Client.on_message(command("start") & filters.private & ~filters.group & ~filters.edited)
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAEOnLVj0FZObesyqVy3VqJJfaqkTm0JGwAC2wgAAo5DAVb47Sdbc1PSei0E")
+    await message.reply_sticker("CAACAgUAAxkBAAEOnXRj0K3rOj2KzPQEII_mzUUJf65_0AACUAcAAjA5gFZaJKzDHxVmBC0E")
     await message.reply_photo(
         photo=f"{START_IMG}",
         caption=f""" ** Hey {message.from_user.mention()} , ⚔️\n\n
-๏ This is [{bn}](t.me/{bu}) ,  !
+๏ This is [{bn}](t.me/{bu}) ,
 ➻ 👑Official Account🖤
 💟Wish Me On 15 August 🎂
 ⚡My Life My Rules💪
 🎶Music ka Diwana💥
 🕉️Mahadev Bhakt🕉️
 ♍I’m not Rich ßut I’m Royal 👑
-🌹Loyal and trustable person 💑
+🌹Loyal and trustable Boy👩‍❤️‍👨
 ☺️My Freinds are my World 💗.
 
 ──────────────────
