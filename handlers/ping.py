@@ -55,7 +55,7 @@ async def help(client: Client, message: Message):
         caption=" Pinging...⚡ ",
     )
     await jay.edit_text(
-        f"""<b> 𝙈𝙊𝙊𝙉𝙎𝙃𝙄𝙉𝙀 ! ⚡</b>\n  🏓 `{resp} ms`\n\n<b><u>{BOT_NAME} system stats:</u></b>\n\n✨ Uptime : {bot_uptime}\n🔮 Cpu : {cpu}%\n💫 Disk : {disk}%\n❤️ Ram : {mem}\n\n||ᴍᴀᴅᴇ 🖤 ʙʏ [𝙼𝙾𝙾𝙽𝚂𝙷𝙸𝙽𝙴🥀](https://t.me/MT_LEXTUS_XD)||""",
+        f"""<b> 𝙈𝙊𝙊𝙉𝙎𝙃𝙄𝙉𝙀 𝙓 𝙈𝙐𝙎𝙄𝘾 ⚡</b>\n  🏓 `{resp} ms`\n\n<b><u>{BOT_NAME} system stats:</u></b>\n\n✨ Uptime : {bot_uptime}\n🔮 Cpu : {cpu}%\n💫 Disk : {disk}%\n❤️ Ram : {mem}\n\n||ᴍᴀᴅᴇ 🖤 ʙʏ [𝙼𝙾𝙾𝙽𝚂𝙷𝙸𝙽𝙴🥀](https://t.me/MT_LEXTUS_XD)||""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
