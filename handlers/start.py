@@ -19,27 +19,28 @@ async def start_(client: Client, message: Message):
 🎶Music ka Diwana💥
 🕉️Mahadev Bhakt🕉️
 ♍I’m not Rich ßut I’m Royal 👑
-༒︎Iɴsᴛᴀɢʀᴀᴍ ɪᴅ ༒︎ mt_legend_xd ☠︎︎.
+🌹Loyal and trustable person 💑
+☺️My Freinds are my World 💗.
 
 ──────────────────
 ๏  All of my command can be used with My command handle : ( / . • $ ^ ~ + * ? )
-➻ Made 🫶🏻 by : [𝐇𝐀𝐂𝐊𝐄𝐑❤️‍🔥](https://t.me/MT_LEXTUS_XD) ** """,
+➻ Made 🫶🏻 by : [𝙈𝙊𝙊𝙉𝙎𝙃𝙄𝙉𝙀❤️‍🔥](https://t.me/MT_LEXTUS_XD) ** """,
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "✚ group me add kar re ", url=f"https://t.me/{bu}?startgroup=true"
+                        "✚Add Me To Your Group✚  ", url=f"https://t.me/MOON_X_MUSIC_BOT?startgroup=true"
                        ),
                  ],[
                     InlineKeyboardButton(
-                        "⚔️ Chal Channel ko support kar  ", url=f"https://t.me/AASHIYANA_MERA"
+                        "⚔️ Support My Channel  ", url=f"https://t.me/AASHIYANA_MERA"
                     ),
                     InlineKeyboardButton(
-                        "⚔️ Group Support ", url=f"https://t.me/COOKIE_WORLD"
+                        "⚔️ Support My Group ", url=f"https://t.me/COOKIE_WORLD"
                     )
                   ],[
                     InlineKeyboardButton(
-                        "👤 King owner ", url=f"https://t.me/MT_LEXTUS_XD"
+                        "👤 Real Owner ", url=f"https://t.me/MT_LEXTUS_XD"
                     ),
                     InlineKeyboardButton(
                         "👨‍💻 Developer ", url=f"https://t.me/MT_LEXTUS_XD"
