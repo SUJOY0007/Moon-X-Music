@@ -2,4 +2,4 @@ build:
   docker:
     worker: Dockerfile
 run:
-  worker: /bin/sh -c python3\ main.py
+  worker:  bin sh -c python3 main.py
