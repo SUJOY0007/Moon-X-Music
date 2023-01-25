@@ -50,7 +50,7 @@ async def start_(client: Client, message: Message):
                         "✅ Inline ", switch_inline_query_current_chat=""
                     ),
                     InlineKeyboardButton(
-                        "💡 Git repo", url="https://telegra.ph/file/089864f9401b686c645cb.mp4"
+                        "💡 Git repo", url="https://te.legra.ph/file/db7c6b18567b5e81165ad.mp4"
                     )]
             ]
        ),
