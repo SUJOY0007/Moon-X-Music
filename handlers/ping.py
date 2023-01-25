@@ -49,13 +49,13 @@ async def help(client: Client, message: Message):
     start = datetime.now()
     end = datetime.now()
     resp = (end - start).microseconds / 1000
-    await message.reply_sticker("CAACAgUAAxkBAAEOnLVj0FZObesyqVy3VqJJfaqkTm0JGwAC2wgAAo5DAVb47Sdbc1PSei0E")
+    await message.reply_sticker("CAACAgUAAxkBAAEOnXRj0K3rOj2KzPQEII_mzUUJf65_0AACUAcAAjA5gFZaJKzDHxVmBC0E")
     jay = await message.reply_photo(
         photo=f"{PING_IMG}",
         caption=" Pinging...⚡ ",
     )
     await jay.edit_text(
-        f"""<b> pong ping ! ⚡</b>\n  🏓 `{resp} ms`\n\n<b><u>{BOT_NAME} system stats:</u></b>\n\n✨ Uptime : {bot_uptime}\n🔮 Cpu : {cpu}%\n💫 Disk : {disk}%\n❤️ Ram : {mem}\n\n||ᴍᴀᴅᴇ 🖤 ʙʏ [𝙼𝙾𝙾𝙽𝚂𝙷𝙸𝙽𝙴🥀](https://t.me/MT_LEXTUS_XD)||""",
+        f"""<b> 𝙈𝙊𝙊𝙉𝙎𝙃𝙄𝙉𝙀 ! ⚡</b>\n  🏓 `{resp} ms`\n\n<b><u>{BOT_NAME} system stats:</u></b>\n\n✨ Uptime : {bot_uptime}\n🔮 Cpu : {cpu}%\n💫 Disk : {disk}%\n❤️ Ram : {mem}\n\n||ᴍᴀᴅᴇ 🖤 ʙʏ [𝙼𝙾𝙾𝙽𝚂𝙷𝙸𝙽𝙴🥀](https://t.me/MT_LEXTUS_XD)||""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
