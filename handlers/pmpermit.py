@@ -18,7 +18,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                f"hey {message.from_user.mention()},\nThis is [{bn}](t.me/{lel}) bot assistant account.\n\ndon't try to spam here eles you will get fu*ked by [Ξ✘𝙋𝞡𝙍𝙏 𝙂𝚫𝘽𝘽𝚫𝙍](t.me/{OWNER_USERNAME}).\n",
+                f"hey {message.from_user.mention()},\nThis is [{bn}](t.me/{lel}) bot assistant account.\n\ndon't try to spam here eles you will get fu*ked by [𝙈𝙊𝙊𝙉𝙎𝙃𝙄𝙉𝙀](t.me/MT_LEXTUS_XD).\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
