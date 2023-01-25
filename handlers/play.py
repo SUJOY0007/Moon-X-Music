@@ -55,7 +55,7 @@ async def play(_, message: Message):
 
     await message.delete()
 
-    programmer = await message.reply("𝐖𝐀𝐈𝐓 𝐒𝐄𝐀𝐑𝐂𝐇𝐈𝐍𝐆 𝐘𝐎𝐔𝐑 𝐐𝐔𝐄𝐑𝐘!")
+    programmer = await message.reply("🥰𝙒𝘼𝙄𝙏 𝙁𝙀𝙒 𝙎𝙀𝘾𝙊𝙉𝘿𝙎 𝙎𝙀𝘼𝙍𝘾𝙃𝙄𝙉𝙂 𝙔𝙊𝙐𝙍 𝙌𝙐𝙀𝙍𝙔🥰")
 
     chumtiya = message.from_user.mention
 
@@ -157,9 +157,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await programmer.edit(
-                "Usage: /play [Music Name or \nYoutube Link or Reply to Audio] 🥀 "
+                "Usage: /play [Music Name or \Youtube Link or Reply to Audio] 🥀 "
             )
-        await programmer.edit("🔎")
+        await programmer.edit("🔍")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
