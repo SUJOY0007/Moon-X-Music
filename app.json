@@ -1,10 +1,10 @@
 {
-  "name": "𝐆𝐉𝟓𝟏𝟔🔆𝐌𝐔𝐒𝐈𝐂♪"
+  "name": "𝙈𝙊𝙊𝙉 𝙓 𝙈𝙐𝙎𝙄𝘾"
 ,
-  "logo": "https://te.legra.ph/file/be210d0315f6d723401da.jpg",
+  "logo": "https://telegra.ph//file/c5bcab6a5f6880cf3c739.jpg",
   "description": "A SuperFast VC Player bot to play songs in Telegram Video Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/MrProgrammer72/GJ516VCBOT",
+  "repository": "https://github.com/SUJOY0007/musicx",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
