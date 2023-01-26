@@ -3,7 +3,7 @@
     ──「 ✼➢𝙈𝙊𝙊𝙉𝙎𝙃𝙄𝙉𝙀 𝙓 𝙈𝙐𝙎𝙄𝘾 𝘽𝙔 𝙎𝙐𝙅𝙊𝙔👑 」──  
    </h2>  
  <p align="center">   
-<img src="https://telegra.ph//file/64011f8fe143ece838020.jpg">   
+<img src="https://graph.org/file/4693889650fb5dcbfd7cc.jpg">   
  </p> ━━━━━━━━━━━━━━━━━━━━ 
  <p align="center"> 
  <a href="https://github.com/SUJOY0007/musicx/stargazers"><img src="https://img.shields.io/github.com/SUJOY0007/musicx?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a> <a href="https://github.com/SUJOY0007/Moon-X-Music.git/network/members"> <img src="https://img.shields.io/github/forks/MrProgrammer72/GJ516VCBOT?color=black&logo=github&logoColor=black&style=for-the-badge" /></a> 
