@@ -4,7 +4,7 @@
   "logo": "https://telegra.ph//file/c5bcab6a5f6880cf3c739.jpg",
   "description": "A SuperFast VC Player bot to play songs in Telegram Video Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/SUJOY0007/musicx",
+  "repository": "https://github.com/SUJOY0007/Moon-X-Music",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -18,12 +18,12 @@
     "BOT_NAME": {
       "description": "A name for your MusicPlayer Bot",
       "required": false,
-      "value": ""
+      "value": "⏤͟͟͢͞͞ 𝙈𝙊𝙊𝙉𝙎𝙃𝙄𝙉𝙀 𝙓 𝙈𝙐𝙎𝙄𝘾⏤͟͟͢͞͞"
     },
     "BOT_USERNAME": {
       "description": "Username of your bot without @",
       "required": false,
-      "value": ""
+      "value": "MOON_X_MUSIC_BOT"
     },
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps",
@@ -36,18 +36,18 @@
     "OWNER_USERNAME": {
       "description": "Username of the person who will known as owner of the bot, without @",
       "required": false,
-      "value": "export_gabbar"
+      "value": "MT_LEXTUS_XD"
     },
     "SUPPORT_GROUP": {
       "description": "Username of the group where users will go and disturb you, without @",
       "required": false,
-      "value": "GJ516_DISCUSS_GROUP"
+      "value": "COOKIE_WORLD"
 
     },
     "CHANNEL_UPDATES": {
       "description": "Username of the group where users will go and disturb you, without @",
       "required": false,
-      "value": "myworldGJ516"
+      "value": "AASHIYANA_MERA"
 
     },
     "SUDO_USERS": {
@@ -71,7 +71,7 @@
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
       "required": false,
-      "value": "90"
+      "value": "120"
     }
   }
 }
