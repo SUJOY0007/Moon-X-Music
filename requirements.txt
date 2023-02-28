@@ -1,4 +1,4 @@
-yt-dlp
+yt-dlp-U
 pyrogram==1.4.16
 TgCrypto
 py-tgcalls==0.8.6
