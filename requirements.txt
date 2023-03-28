@@ -17,3 +17,13 @@ ujson
 psutil
 telegram
 python-telegram-bot==13.11
+dnspython
+gitpython
+hachoir
+heroku3
+lyricsgenius
+motor==3.0.0
+pykeyboard
+pyyaml==5.3.1
+speedtest-cli
+spotipy
