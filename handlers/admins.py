@@ -17,7 +17,6 @@ ACTV_CALLS = []
 @errors
 @authorized_users_only
 async def pause(_, message: Message):
-    await message.delete()
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
     await message.reply_text("» Track paused by {} 😫".format( message.from_user.mention ), )
 
@@ -26,7 +25,6 @@ async def pause(_, message: Message):
 @errors
 @authorized_users_only
 async def resume(_, message: Message):
-    await message.delete()
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_text(" Track resumed by {} 🤗".format( message.from_user.mention ), )
 
@@ -40,7 +38,6 @@ async def stop(_, message: Message):
     except QueueEmpty:
         pass
 
-    await message.delete()
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_text(" Stream ended by {} 🥺".format(
       message.from_user.mention ), )
@@ -49,7 +46,6 @@ async def stop(_, message: Message):
 @errors
 @authorized_users_only
 async def skip(_, message: Message):
-    await message.delete()
     global que
     chat_id = message.chat.id
     for x in callsmusic.pytgcalls.active_calls:
